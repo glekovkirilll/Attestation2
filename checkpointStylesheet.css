@@ -1,0 +1,99 @@
+ul{
+	list-style: :none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+li{
+	content: '';
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	vertical-align: middle;
+
+	background-color: #000;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+
+li:hover{
+	content: '';
+	display: inline-block;
+	height: 48px;
+	width: 48px;
+	vertical-align: middle;
+	border: 1px solid black;
+
+	background-color: #000;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+
+
+#red{
+	background-color: #DA2C06;
+}
+#orange{
+	background-color: #DA8A06;
+}
+#yellow{
+	background-color: #E8E815;
+}
+#green{
+	background-color: #88E815;
+}
+#lightBlue{
+	background-color: #15E8D8;
+}
+#blue{
+	background-color: #1538E8;
+}
+#blue:hover{
+	background-color: #1538E8;
+	border: 1px solid red;
+}
+#purple{
+	background-color: #8215E8;
+}
+#purple:hover{
+	background-color: #8215E8;
+	border: 1px solid red;
+
+}
+#salmon{
+	background-color: #FFA07A;
+}
+#black{
+	background-color: #000000;
+
+}
+#black:hover{
+	background-color: #000000;
+	border: 1px solid red;
+
+}
+#fuchia{
+	background-color: #FF00FF;
+}
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.slider {
+  width: 50%; /* Full-width */
+  height: 25px; /* Specified height */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+#canvas{
+	border: 1px dotted black;
+}
